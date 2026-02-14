@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Full-stack web developer specializing in fast, scalable web applications for startups and small businesses.">
+    <title>Full-Stack Developer | Web Applications & API Development</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+  
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Portfolio</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">Home</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Projects</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">About</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#process" class="nav__link">Process</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-icon" id="theme-icon">⏾</span>
+                </button>
+            </div>
+            <button class="nav__toggle" id="nav-toggle" aria-label="Toggle navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero section" id="home">
+            <div class="hero__container container">
+                <div class="hero__content">
+                    <div><img src="profile.PNG" style="height: 100px;"></div>
+                    <h1 class="hero__title">
+                        I build fast, scalable web applications for startups and small businesses.
+                    </h1>
+                    <p class="hero__description">
+                        Full-stack development that focuses on your business goals. Clean code, reliable delivery, and ongoing support.
+                    </p>
+                    <div class="hero__cta">
+                        <a href="#contact" class="btn btn--primary">Start a Project</a>
+                        <a href="#projects" class="btn btn--secondary">View Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services section" id="services">
+            <div class="container">
+                <h2 class="section__title">What I Offer</h2>
+                <p class="section__subtitle">Services designed to help your business grow</p>
+                
+                <div class="services__grid">
+                    <article class="service__card">
+                        <div class="service__icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 -960 960 960" ><path d="M80-160q-33 0-56.5-23.5T0-240h160q-33 0-56.5-23.5T80-320v-440q0-33 23.5-56.5T160-840h640q33 0 56.5 23.5T880-760v440q0 33-23.5 56.5T800-240h160q0 33-23.5 56.5T880-160H80Zm400-40q17 0 28.5-11.5T520-240q0-17-11.5-28.5T480-280q-17 0-28.5 11.5T440-240q0 17 11.5 28.5T480-200Z"/></svg></div>
+                        <h3 class="service__title">Full-Stack Web Development</h3>
+                        <p class="service__description">
+                            Complete web applications from frontend to backend. Responsive, accessible, and optimized for performance.
+                        </p>
+                    </article>
+
+                    <article class="service__card">
+                        <div class="service__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M200-120q-17 0-28.5-11.5T160-160v-40h-40v-160q0-17 11.5-28.5T160-400h40v-280q0-66 47-113t113-47q66 0 113 47t47 113v400q0 33 23.5 56.5T600-200q33 0 56.5-23.5T680-280v-280h-40q-17 0-28.5-11.5T600-600v-160h40v-40q0-17 11.5-28.5T680-840h80q17 0 28.5 11.5T800-800v40h40v160q0 17-11.5 28.5T800-560h-40v280q0 66-47 113t-113 47q-66 0-113-47t-47-113v-400q0-33-23.5-56.5T360-760q-33 0-56.5 23.5T280-680v280h40q17 0 28.5 11.5T360-360v160h-40v40q0 17-11.5 28.5T280-120h-80Z"/></svg></div>
+                        <h3 class="service__title">API Development</h3>
+                        <p class="service__description">
+                            RESTful APIs and integrations that connect your systems. Secure, documented, and ready to scale.
+                        </p>
+                    </article>
+
+                    <article class="service__card">
+                        <div class="service__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m456-200 174-340H510v-220L330-420h126v220Zm24 120q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/></svg></div>
+                        <h3 class="service__title">Performance Optimization</h3>
+                        <p class="service__description">
+                            Speed up existing applications. Reduce load times, improve user experience, and lower hosting costs.
+                        </p>
+                    </article>
+
+                    <article class="service__card">
+                        <div class="service__icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="m620-284 56-56q6-6 6-14t-6-14L540-505q4-11 6-22t2-25q0-57-40.5-97.5T410-690q-17 0-34 4.5T343-673l94 94-56 56-94-94q-8 16-12.5 33t-4.5 34q0 57 40.5 97.5T408-412q13 0 24.5-2t22.5-6l137 136q6 6 14 6t14-6ZM480-80q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Z"/></svg></div>
+                        <h3 class="service__title">Maintenance & Support</h3>
+                        <p class="service__description">
+                            Ongoing updates, bug fixes, and feature additions. Keep your application running smoothly.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="projects section" id="projects">
+            <div class="container">
+                <h2 class="section__title">Recent Projects</h2>
+                <p class="section__subtitle">Real solutions for real business challenges</p>
+
+                <div class="projects__grid">
+                    <!-- Project 1 -->
+                    <article class="project__card">
+                        <div class="project__header">
+                            <h3 class="project__title">E-Commerce Platform</h3>
+                            <div class="project__links">
+                                <a href="#" class="project__link" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="project__link" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h4 class="project__subtitle">Problem</h4>
+                            <p class="project__text">
+                                A local retailer needed an online store to reach customers during the pandemic. Their existing solution was slow and expensive.
+                            </p>
+                            <h4 class="project__subtitle">Solution</h4>
+                            <p class="project__text">
+                                Built a custom e-commerce platform with inventory management, payment processing, and admin dashboard. Reduced page load time by 60% and cut monthly costs by 40%.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 -->
+                    <article class="project__card">
+                        <div class="project__header">
+                            <h3 class="project__title">SaaS Dashboard</h3>
+                            <div class="project__links">
+                                <a href="#" class="project__link" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="project__link" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h4 class="project__subtitle">Problem</h4>
+                            <p class="project__text">
+                                A startup needed a dashboard to visualize analytics and manage user subscriptions. They were using multiple tools that didn't integrate well.
+                            </p>
+                            <h4 class="project__subtitle">Solution</h4>
+                            <p class="project__text">
+                                Created a unified dashboard with real-time analytics, subscription management, and automated reporting. Improved team productivity by consolidating workflows.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">REST API</span>
+                                <span class="tech-tag">Chart.js</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="project__card">
+                        <div class="project__header">
+                            <h3 class="project__title">Booking System API</h3>
+                            <div class="project__links">
+                                <a href="#" class="project__link" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="project__link" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h4 class="project__subtitle">Problem</h4>
+                            <p class="project__text">
+                                A service business needed an API to handle appointments, send reminders, and sync with their calendar system.
+                            </p>
+                            <h4 class="project__subtitle">Solution</h4>
+                            <p class="project__text">
+                                Developed a RESTful API with authentication, automated email notifications, and calendar integration. Reduced no-shows by 25% through automated reminders.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">JWT</span>
+                                <span class="tech-tag">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 4 -->
+                    <article class="project__card">
+                        <div class="project__header">
+                            <h3 class="project__title">Portfolio Website Redesign</h3>
+                            <div class="project__links">
+                                <a href="#" class="project__link" aria-label="View live demo">Live Demo</a>
+                                <a href="#" class="project__link" aria-label="View source code on GitHub">GitHub</a>
+                            </div>
+                        </div>
+                        <div class="project__content">
+                            <h4 class="project__subtitle">Problem</h4>
+                            <p class="project__text">
+                                A creative agency's website was outdated, slow, and not mobile-friendly. They were losing potential clients.
+                            </p>
+                            <h4 class="project__subtitle">Solution</h4>
+                            <p class="project__text">
+                                Redesigned and rebuilt the site with modern responsive design, improved SEO, and faster load times. Increased contact form submissions by 80%.
+                            </p>
+                            <div class="project__tech">
+                                <span class="tech-tag">HTML/CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Responsive Design</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="about__content">
+                    <h2 class="section__title">About Me</h2>
+                    <div class="about__text">
+                        <p>
+                            I help startups and small businesses build web applications that solve real problems. With 5+ years of experience, I focus on delivering clean, maintainable code that scales with your business.
+                        </p>
+                        <p>
+                            What sets me apart isn't just technical skill—it's reliability, clear communication, and a problem-solving mindset. I ask the right questions upfront, plan before coding, and deliver on time.
+                        </p>
+                        <p>
+                            Whether you need a new application, an API integration, or performance improvements to an existing site, I work with you to understand your goals and build solutions that drive results.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="process section" id="process">
+            <div class="container">
+                <h2 class="section__title">How I Work</h2>
+                <p class="section__subtitle">A transparent process that builds trust</p>
+
+                <div class="timeline" data-active-step="5">
+
+                    <div class="timeline-item" data-step="1">
+                        <div class="timeline-date"></div>
+                        <div class="timeline-track">
+                            <div class="timeline-dot">01</div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Discovery &amp; Requirements</h3>
+                            <p>
+                                We discuss your goals, target audience, and technical requirements. I ask questions to understand the problem you're solving.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-step="2">
+                        <div class="timeline-date"></div>
+                        <div class="timeline-track">
+                            <div class="timeline-dot">02</div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Planning &amp; Architecture</h3>
+                            <p>
+                                I create a technical plan, choose the right tools, and outline the project timeline. You review and approve before development starts.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-step="3">
+                        <div class="timeline-date"></div>
+                        <div class="timeline-track">
+                            <div class="timeline-dot">03</div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Development</h3>
+                            <p>
+                                I build in stages, sharing progress regularly. You see working features early and can request changes as we go.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-step="4">
+                        <div class="timeline-date"></div>
+                        <div class="timeline-track">
+                            <div class="timeline-dot">04</div>
+                            <div class="timeline-line"></div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Review &amp; Iteration</h3>
+                            <p>
+                                You test the application and provide feedback. I make adjustments until everything meets your expectations.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-step="5">
+                        <div class="timeline-date"></div>
+                        <div class="timeline-track">
+                            <div class="timeline-dot">05</div>
+                        </div>
+                        <div class="timeline-content">
+                            <h3>Delivery &amp; Support</h3>
+                            <p>
+                                I deploy the application, provide documentation, and offer ongoing support. You have everything you need to succeed.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <h2 class="section__title">Let's Work Together</h2>
+                <p class="section__subtitle">Have a project in mind? Get in touch.</p>
+
+                <div class="contact__content">
+                    <div class="contact__info">
+                        <p class="contact__email">
+                            <strong>Email:</strong> 
+                            <a href="mailto:adhilkhan9207@gmail.com">adhilkhan9207@gmail.com</a>
+                        </p>
+                        <p class="contact__response">
+                            I typically respond within 24 hours.
+                        </p>
+                    </div>
+
+                    <form class="contact__form" id="contact-form">
+                        <div class="form__group" style="display: inline-block; width: 48%;">
+                            <label for="name" class="form__label">Name</label>
+                            <input 
+                                type="text" 
+                                id="name" 
+                                name="name" 
+                                class="form__input" 
+                                required
+                                aria-required="true"
+                                placeholder="Enter your name"
+                            >
+                        </div>
+
+                        <div class="form__group" style="display: inline-block; width: 48%;">
+                            <label for="email" class="form__label">Email</label>
+                            <input 
+                                type="email" 
+                                id="email" 
+                                name="email" 
+                                class="form__input" 
+                                required
+                                aria-required="true"
+                                placeholder="Enter your email"
+                            >
+                        </div>
+
+                        <div class="form__group" style="width: 97%;">
+                            <label for="message" class="form__label">Message</label>
+                            <textarea 
+                                id="message" 
+                                name="message" 
+                                class="form__textarea" 
+                                rows="5" 
+                                required
+                                aria-required="true"
+                                placeholder="Enter your message"
+                            ></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn--primary">Send Message</button>
+                        <p class="form__message" id="form-message"></p>
+                    </form>
+
+                    <div class="contact__social">
+                        <a href="https://github.com/adhilkhaan" target="_blank" rel="noopener noreferrer" class="social__link" aria-label="GitHub profile">
+                            GitHub
+                        </a>
+                        <a href="https://www.linkedin.com/in/adhilkhaan/" target="_blank" rel="noopener noreferrer" class="social__link" aria-label="LinkedIn profile">
+                            LinkedIn
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">&copy; 2026. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
+
